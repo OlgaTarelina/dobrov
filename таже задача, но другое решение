@@ -1,0 +1,17 @@
+n = int (input('Введите количество билетов = '))
+a = [0]*n
+s = 0
+
+for i in range (n):
+    a[i]= int(input('Введите возраст - '))
+    if a[i] < 18:
+        print ('Бесплатно')
+    elif a[i]< 25:
+        s+=990
+        print(990)
+    else:
+        s+=1390
+        print(1390)
+if n > 3:
+    print(round(0.9*s)     
+    
